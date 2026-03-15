@@ -1,0 +1,393 @@
+body {
+    font-family: outfit;
+}
+
+.header {
+    display: flex;
+    width: 1330px;
+    margin-top: 15px;
+    height: 80px;
+    margin-left: 100px;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.navbar {
+    display: flex;
+    width: 950px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration-line: none;
+    color: #3b5a80;
+}
+
+#create-acc-btn {
+    width: 195px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #5F6FFF;
+    color: white;
+    border-style: none;
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+#create-acc-btn:hover{
+    background-color: white;
+    color:#5F6FFF ;
+    border: 2px solid #5F6FFF;
+}
+
+button {
+    cursor: pointer;
+}
+
+.appointment {
+    margin-top: 29px;
+    background-color: #5F6FFF;
+    width: 1330px;
+    height: 600px;
+    border-radius: 12px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.appointment-text {
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 50px;
+    width: 700px;
+}
+
+.appointment-text h1 {
+    font-family: 'Outfit', sans-serif;
+    width: 500px;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 600;
+    font-style: semi-bold;
+    font-display: outfit;
+    align-content: center;
+    margin-left: 18px;
+}
+
+.appointment-text p {
+    width: 350px;
+    font-size: 14px;
+    line-height: 30px;
+    font-style: normal;
+    font-family: 'Outfit', sans-serif;
+}
+
+.appointment-text button {
+    width: 200px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #595959;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appointment-text button:hover{
+    background: #5F6FFF;
+    color: white;
+    border: 2px solid white;
+}
+
+.appointment-img1 {
+    margin-top: 500px;
+    width: 800px;
+    height: 520px;
+    margin-left: -50px;
+}
+
+.group {
+    width: 100px;
+    height: 60px;
+}
+
+.img-1 {
+    background-color: #5F6FFF;
+    margin-top: -50px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-1 img {
+    width: 150px;
+}
+
+.appointment-img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.type-row {
+
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.img-cap {
+    justify-content: center;
+    justify-self: center;
+    color: #3b5a80;
+    font-size: 15px;
+}
+
+.speciality-img {
+    width: 90px;
+    height: 90px;
+}
+
+.speciality {
+    margin-top: 50px;
+    width: 1330px;
+    justify-items: center;
+    margin-left: 100px;
+}
+
+#top-dc-head {
+    margin-top: 100px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#top-dc-sub {
+    width: 550px;
+    text-align: center;
+    color: #4B5563;
+    font-size: 18px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+.top-doctors {
+    width: 1330px;
+    height: 1100px;
+    justify-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.doctors {
+    margin-bottom: 20px;
+}
+
+.doctors,
+.doctors-copy {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.doct .doctorimg {
+    background: #EAEFFF;
+    width: 100%;
+    display: flex;
+    height: 273.88px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-shrink: 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.dr {
+    display: flex;
+    flex-direction: column;
+    width: 274px;
+    height: 395px;
+    border: 1px solid #C9D8FF;
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden;
+}
+
+.doct .doctorimg img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.doctordetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.doctordetails h3,
+p {
+    margin: 0;
+}
+
+.doctordetails h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.doctordetails p {
+    color: #4B5563;
+    font-weight: 400;
+    font-family: outfit;
+    font-size: 15px;
+}
+
+#status {
+    color: #0FBF00;
+    font-weight: 400;
+    display: flex;
+    gap: 7px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.dot {
+    width: 7.25px;
+    height: 7.25px;
+    background: #0FBF00;
+    border-radius: 50%;
+}
+
+#more {
+    width: 200px;
+    height: 50px;
+    background-color: #EAEFFF;
+    color: #3b5a80;
+    margin-left: 600px;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.create-acc {
+    display: flex;
+    width: 1310px;
+    height: 455px;
+    background-color: #5F6FFF;
+    border-radius: 12px;
+    justify-items: center;
+    margin-left: 110px;
+    margin-top: 80px;
+
+}
+
+.acc-text {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#acc-head {
+    font-size: 52px;
+    line-height: 90px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#acc-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #4B5563;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: outfit;
+}
+
+#img {
+    width: 580px;
+    height: 529px;
+    margin-top: -73px;
+    z-index: 2;
+}
+
+.footer-container {
+    display: flex;
+    width: 1310px;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: 70px;
+    gap: 180px;
+    color: #254367;
+    margin-bottom: 30px;
+}
+
+.footer {
+    width: 565px;
+}
+
+.foot img {
+    margin-bottom: 30px;
+}
+
+.footer p {
+    line-height: 30px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration-line: none;
+    color: #254367
+}
+
+.footer-links h4,
+.footer-contact h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.footer-links li,
+.footer-contact li {
+    line-height: 30px;
+}
+
+#copyright p {
+    width: 1310px;
+    height: 30px;
+    border-top: 1px solid #ADADAD;
+    margin-left: 110px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #213e61;
+}
