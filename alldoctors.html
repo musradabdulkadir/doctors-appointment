@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Dr.Search</title>
+</head>
+
+<body class="my-[10px] mx-[50px]">
+    <!-- header  -->
+    <header id="main-header">
+        <div class="logo-container">
+            <img class="img-logo" src="./images/dr.searchlogo.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./alldoctors.html">all doctors</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="create-acc-btn">Create account</button>
+    </header>
+
+
+    <!-- main  -->
+    <main>
+        <section>
+            <p class="font-[outfit] mt-[20px] text-gray-600 ">Browse through the doctors specialist.</p>
+            <div class="flex gap-6 p-6 min-h-screen">
+
+                <!-- Sidebar -->
+                <div id="sidebar" class="hidden md:block w-64 space-y-3">
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">General physician</button>
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">Gynecologist</button>
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">Dermatologist</button>
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">Pediatricians</button>
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">Neurologist</button>
+                    <button class="w-full border rounded-md p-2 text-left hover:bg-gray-200">Gastroenterologist</button>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 flex-1">
+                    <!-- Card -->
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc1.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full font-[outfit]"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Richard James</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">General physician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc2.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full font-[outfit]"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Emily Larson</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Gynecologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc3.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full font-[outfit]"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Sarah Patel</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Dermatologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc4.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full font-[outfit]"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Christopher Lee</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Pediatrician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc5.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Jennifer Gracia</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">General physician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc6.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Andrew Williams</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Gastroenterologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc7.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Christopher Davis</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">General physician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc8.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Timothy White</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Gynecologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc9.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Ava Mitchell</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Dermatologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc10.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Jeffrey king</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Pediatrician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc11.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Zeo Kelly</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Neurologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc10.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Jeffrey king</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Pediatrician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc12.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Patrick Harris</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Gastroenterologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc13.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Chloe Evans</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">General physician</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc14.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Ryan Martinez</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Gynecologist</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bg-white w-[200px] rounded-xl shadow-md overflow-hidden">
+                        <a href="#">
+                            <!-- Image -->
+                            <div class="bg-gray-200 h-48 flex items-center justify-center">
+                                <img src="images/doc15.png" class="h-full object-contain">
+                            </div>
+                            <!-- Content -->
+                            <div class="p-4">
+                                <p class="text-green-500 text-sm flex items-center gap-2 font-[outfit]">
+                                    <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                    Available
+                                </p>
+                                <h3 class="font-[outfit] text-lg mt-1">Dr. Amelia Hill</h3>
+                                <p class="text-gray-500 text-sm font-[outfit]">Dermatologist</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer  -->
+    <footer id="main-footer">
+        <div class="footer">
+            <div>
+                <div class="logo-container">
+                    <img class="img-logo" src="./images/dr.searchlogo.png" alt="logo">
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore dolore quas optio corrupti sit earum
+                    amet sint accusamus similique. Enim ullam dicta commodi labore. Delectus eaque, reprehenderit veniam
+                    ab placeat dicta unde porro. Soluta commodi ab minima accusantium iste! Natus quam nam repudiandae
+                    deserunt similique quaerat quasi qui quas sapiente!</p>
+            </div>
+            <div class="company">
+                <div class="logo-container flex items-center">
+                    <h1 class="footer-head">COMPANY</h1>
+                </div>
+                <p><a href="/index.html">Home</a></p>
+                <p><a href="#">About us</a></p>
+                <p><a href="#">Delivery</a></p>
+                <p><a href="#">Privacy policy</a></p>
+            </div>
+            <div>
+                <div class="logo-container flex items-center">
+                    <h1 class="footer-head">GET IN TOUCH</h1>
+                </div>
+                <p>+0-000-000-000</p>
+                <p>greatstackdev@gmail.com</p>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright 2024 @ Greatstack.dev - All Right Reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
